@@ -32,7 +32,7 @@ porcentaje_becas = st.sidebar.slider("Porcentaje de Becas", 0.2, 1.0, 0.2)
 st.sidebar.header("Porcentaje de Infraestructura")
 porcentaje_infra = st.sidebar.slider("Porcentaje de Infraestructura", 0.0,0.5,0.0)
 st.sidebar.header("Porcentaje de Docentes")
-porcentaje_docentes = st.sidebar.slider("Porcentaje de Docentes", 0.15, 1, 0.20)
+porcentaje_docentes = st.sidebar.slider("Porcentaje de Docentes", 0.15, 1.0, 0.2)
 
 # Cargar datos
 df = pd.read_csv("datosl_final.csv")
