@@ -54,7 +54,6 @@ modelo.fit(X,y)
 b1 = modelo.coef_
 b0 = modelo.intercept_
 
-prediccion = b0 + b1[0]*ingreso_input
 
 # Especificamos datos por población
 numero = 713546
